@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 30px;
+    align-items: center;
+
+}
+
+.header a{
+    margin-right: 20px;
+    color:rgb(33,33,33);
+    text-decoration: inherit;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+/* Images */
+#appsimg{
+    margin-right: 20px;
+    opacity: 0.7;
+}
+#accountimg{
+    width: 30px;
+    height: auto;
+}
+
+.headerright{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content:space-between;
+
+}
+.mainbody{
+    flex: 1;
+    display: flex;
+    margin-top: 12%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    
+   
+}
+#gimg{
+    object-fit: contain;
+    height: 100px;
+}
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 25px;
+    padding: 8px 25px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 560px
+}
+.search_input input{
+    flex: 1;
+    border: none;
+    outline: none;
+    border: 0px solid rgb(255, 255, 255);
+    border-radius: 999px;
+    width :100%;
+    height: 25px;
+    padding-left: 015px;
+  
+
+    
+}
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    position: relative;
+   
+}
+.searchbox{
+margin-top: 30px ;
+margin-bottom: 580px;
+display: flex;
+justify-content:center;
+align-items: center;
+
+}
+
+.search_input:hover{
+    box-shadow: 1px 1px 1px #C9CBCF;
+    -moz-box-shadow: 0 0 4px #C9CBCF;
+-webkit-box-shadow: 0 0 4px #C9CBCF;
+-o-box-shadow: 0 0 4px #C9CBCF;
+}
+
+.searchbox button{
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+    
+    }
+    .searchbox div{
+        display:flex;
+        height: 40px;
+        width:200px;
+        margin: 30px;
+        background-color: rgba(224, 225, 225, 0.452);
+        justify-content:center;
+        border-radius: 3px;
+    }
+
+    .searchbox button:hover{
+     box-shadow: 1px 0px 1px #c4c5c8;
+    -moz-box-shadow: 1px 0px 4px #C9CBCF;
+    -webkit-box-shadow: 1px 0px 4px #C9CBCF;
+    -o-box-shadow: 1px 0px 4px #C9CBCF;
+    }
+  
+  
+.search .languageselector{
+    
+
+}
+    
